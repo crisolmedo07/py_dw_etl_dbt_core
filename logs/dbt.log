@@ -1,0 +1,42 @@
+[0m10:34:52.371964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266BE41C5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266BE41E300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266BE41E900>]}
+
+
+============================== 10:34:52.378967 | f84497ae-0cf6-463d-909c-66a7b82a191c ==============================
+[0m10:34:52.378967 [info ] [MainThread]: Running with dbt=1.8.5
+[0m10:34:52.379969 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '../', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt clean', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:34:52.381966 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Versat\Desktop\curso_de_python\Jornada_dos_dados_Luciano_Vasconcelos\py_dw_etl_dbt_core\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m10:34:52.385966 [debug] [MainThread]: Command `dbt clean` failed at 10:34:52.384965 after 0.21 seconds
+[0m10:34:52.386965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266BACC8BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266BE3D1730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000266BE4052E0>]}
+[0m10:34:52.388015 [debug] [MainThread]: Flushing usage events
+[0m10:35:36.897140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002335CC2D970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002335D3F6ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002335D214200>]}
+
+
+============================== 10:35:36.904488 | 9d5915e6-b19b-4487-a04b-80ff4779ef26 ==============================
+[0m10:35:36.904488 [info ] [MainThread]: Running with dbt=1.8.5
+[0m10:35:36.906489 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '../', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:35:45.134148 [debug] [MainThread]: Starter project path: C:\Users\Versat\Desktop\curso_de_python\Jornada_dos_dados_Luciano_Vasconcelos\py_dw_etl_dbt_core\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:35:45.170230 [info ] [MainThread]: 
+Your new dbt project "datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:35:45.176780 [info ] [MainThread]: Setting up your profile.
+[0m10:36:47.324659 [info ] [MainThread]: Profile datawarehouse written to ..\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:36:47.329832 [debug] [MainThread]: Command `dbt init` succeeded at 10:36:47.329832 after 70.57 seconds
+[0m10:36:47.331830 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002335C57C080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002335D5D5A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002335D1163F0>]}
+[0m10:36:47.332833 [debug] [MainThread]: Flushing usage events
