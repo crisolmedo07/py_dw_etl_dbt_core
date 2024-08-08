@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "py-dw-etl-dbt-core"
+version = "0.1.0"
+description = ""
+authors = ["crisolmedo07 <crisolmedo07@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.32"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+dbt = "^1.0.0.38.7"
+yfinance = "^0.2.41"
+dbt-postgres = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
