@@ -1,0 +1,25 @@
+version: 2 
+
+sources:
+  - name: dbsales_pugb
+    schema: public
+    tables:
+    #  Generate model
+      - name: commodities
+        description: "Tabla que contienen datos historicos de commodities"
+        columns:
+          - name: Date
+            description: "Fecha de observación"
+          - name: Close
+            description: "Precio de cierre del commodity"
+          - name: simbolo
+            description: "Simbolo del commodity"
+      - name: movimentacao_commodities
+        description: "Tabla que contienen datos historicos de commodities"
+        columns:
+          - name: Date
+            description: "Fecha de observación"
+          - name: Close
+            description: "Precio de cierre del commodity"
+          - name: simbolo
+            description: "Simbolo del commodity"
